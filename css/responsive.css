@@ -1,0 +1,168 @@
+@media only screen and (max-width: 991px) {
+  #sectionTwo {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 99%, 0 99%) !important;
+            clip-path: polygon(0 0, 100% 0, 100% 99%, 0 99%) !important;
+    height: none;
+  }
+  #sectionTwo #pogodnosti .pogodnost {
+    -ms-flex-preferred-size: 25% !important;
+        flex-basis: 25% !important;
+    margin: 2%;
+  }
+  #sectionThree #adventages .adventage {
+    -ms-flex-preferred-size: 50% !important;
+        flex-basis: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #headerMobile {
+    display: none;
+    width: 100vw;
+    height: 100%;
+    font-size: 1.625em;
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  #headerMobile #logoMobile {
+    text-align: center;
+    padding: 40px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  #logo a {
+    font-size: 3.1em;
+  }
+  #headerMobile #navMobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 10%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    z-index: 99999;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .title h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  #searchMobile {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #headerMobile #navMobile li {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  #visIn {
+    display: block;
+  }
+  #header {
+    display: none;
+  }
+  #menu-icon {
+    position: fixed;
+    top: 2%;
+    right: 10%;
+    font-size: 2.5em;
+    color: #7a7a7a;
+    scroll-behavior: smooth;
+    z-index: 99;
+  }
+  #visIn #close-icon {
+    display: none;
+    position: fixed;
+    top: 2%;
+    right: 10%;
+    color: #7a7a7a;
+    scroll-behavior: smooth;
+    z-index: 9999;
+  }
+  #sectionTwo #pogodnosti .pogodnost {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    margin-bottom: 5%;
+  }
+  #sectionThree #adventages .adventage {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+  }
+  #content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100% !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  #content #levo {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100% !important;
+  }
+  #content #levo .txt {
+    margin-bottom: 10%;
+    width: 100%;
+  }
+  #content #desno {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  #sectionTwo #pogodnosti .pogodnost {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #sectionTwo #pogodnosti .pogodnost .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .title h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
